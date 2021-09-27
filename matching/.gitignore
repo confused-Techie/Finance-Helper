@@ -1,0 +1,5 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+# category.json is needed in here for your personal matching

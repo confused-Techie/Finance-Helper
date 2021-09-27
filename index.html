@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>Finance Helper Sorta</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./site.css" />
+</head>
+<body>
+
+  <div class="sidenav">
+    <button type="button" id="homeBtn"> Finance Helper</button>
+    <button type="button" id="inputBtn">Input Data</button>
+    <button type="button" id="reviewBtn">Review Data</button>
+    <button type="button" id="saveBtn">Save Inputted Data</button>
+    <button type="button" id="importBtn">Import Bank Data</button>
+  </div>
+
+  <div class="mainpage" id="main-page">
+
+  </div>
+  <script>
+    window.api.loadscript('./logic.js');
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+  background-color: #3b0b52;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #551075;
+  overflow-x: hidden;
+  border-right-color: #000000;
+  border-right-width: 20px;
+}
+
+.sidenav button {
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.mainpage {
+  height: 100%;
+  top: 0;
+  padding-left: 180px;
+  background-color: #3b0b52;
+  color: black;
+}
+
+mark.spent {
+  background-color: red;
+  background-color: rgba(155, 0, 0, 0.3);
+  color: black;
+}
+
+mark.percent {
+  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.3);
+  color: black;
+}
+
+mark.earned {
+  background-color: green;
+  background-color: rgba(0, 255, 0, 0.3);
+  color: black;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 2px;
+}
